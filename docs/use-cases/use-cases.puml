@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+title Битбокс — use cases
+
+actor "Студент" as student
+actor "Партнёр вуза" as partner
+
+rectangle "Бот записи на практику" {
+  usecase "UC-01\nЗаписаться на практику" as UC1
+  usecase "UC-02\nПеренести запись" as UC2
+  usecase "UC-03\nОтменить запись" as UC3
+  usecase "Подписаться на уведомление\nо свободных местах" as Notify
+}
+
+student --> UC1
+student --> UC2
+student --> UC3
+UC1 ..> Notify : <<extend>>\nмест нет
+UC3 --> partner : уведомление
+@enduml
