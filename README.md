@@ -11,3 +11,11 @@
 - [Роадмап](docs/roadmap.md) — что входит в MVP и что нет
 - [Решения (ADR)](docs/adr/)
 - [Глоссарий](docs/glossary.md)
+
+### Прототип (работа 3)
+
+- [Валидация use cases на прототипе](docs/use-cases/validation.md)
+- [Что изменилось после прототипа](docs/iteration-notes.md) — требования v2
+- [Где врём](docs/quality/eval-report-1.md) — ошибки по типам и боли
+- [Сквозной прогон](docs/e2e-run.md)
+- [План следующего спринта](docs/next-sprint.md)
